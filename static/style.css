@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Gorditas&display=swap');
+*{
+    margin:0;
+    padding:0;
+
+}
+#navigation
+{
+    background-color:#e37272;
+    padding:18px 14px;
+    font-family: 'Gorditas', cursive;
+}
+
+#navigation ul
+{
+    display:flex;
+    /* justify-content:center; */
+    
+}
+#navigation li {
+    /* margin:20px; */
+    
+    list-style: none;
+}
+
+#navigation li a{
+    font-size: 25px;
+    text-decoration: none;
+    color:white;
+    padding:13px 20px;
+
+}
+#navigation li a:hover{
+    color: black;  
+}
+#introsection
+{
+    background: center/cover no-repeat url("/static/bg1.jpg") ;
+    height:425px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Permanent Marker', cursive;
+   
+    font-size: 40px;
+}
+#introsection div.small{
+    font-size: 20px;
+    padding: 5px;
+}
+#missionsection
+{
+    height:300px;
+    margin: auto;
+    display: block;
+    width:71%;
+    
+}
+#missionsection h2{
+    padding-top:12px;
+    text-align:center;
+    font-family: 'Gorditas', cursive;
+    font-size: xx-large;
+
+}
+.card
+{
+    display:inline-block;
+    border:2px solid black;
+    width:28%;
+    border-radius: 5%;
+    height:209px;
+    margin:23px 22px;
+    
+}
+.card-box
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img img
+{
+    height:inherit;
+}
+.card-img{
+    height: 130px;
+    padding:0px 14px;
+    margin:5px 9px;
+}
+.card-content
+{
+    padding: 2px 3px;
+    margin:2px 21px;
+}
+.card-content p{
+    font-size:1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.card h3{
+    text-align: center;
+    margin:0px 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sponsorsection
+{
+    height:300px;
+    background-color:burlywood;
+   
+}
+#sponsorsection h2{
+    padding-top:12px;
+    text-align: center;
+}
+#logo img{
+    height:35px;
+    /* filter: invert(1); */
+}
+#logo 
+{
+    display:flex;
+    color:white;
+    align-items: center;
+    margin:0px 14px;
+    margin-right: 30px;
+}
+#sign
+{
+    text-align: left;
+}
+#sponsor
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:70%;
+    
+}
+.sponsor-img 
+{
+height:80%;
+padding:2px  30px;
+}
+#sponsorsection h2{
+    padding-top:40px;
+    font-size: 200%;
+    font-family: 'Gorditas', cursive;
+
+}
+#footer
+{
+    display:flex ;
+    background-color: black;
+    color:white;
+    align-items: center;
+    height:50px;
+    justify-content: center;
+    font-size: 20px;
+}

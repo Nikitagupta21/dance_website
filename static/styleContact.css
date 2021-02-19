@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    color:white;
+    text-align: center;
+    padding:12px 0px;
+}
+.myForm
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+}
+.container
+{
+    background: center/cover no-repeat url("/static/img/contact.jpg") ;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 84vh;
+    
+}
+.myInput
+{
+    font-size: 0.9rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding:8px;
+    margin:12px 0px;
+    width:70%;
+    border-radius: 12px;
+    border:2px solid #e37272;
+    outline: none;
+}
+.btn
+{
+    padding:12px;
+    width:20%;
+    border-radius: 12px;
+    border:2px solid black;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.0rem;
+    background-color:  #e37272;
+    outline: none;
+}
